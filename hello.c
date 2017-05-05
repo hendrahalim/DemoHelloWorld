@@ -8,7 +8,7 @@ void main()
 	int num2 = 5;
 
 	int result = add(num1, num2);
-	printf("result: %d", result);
+	printf("hasil tambah: %d", result);
 }
 
 int add(int a, int b) {
