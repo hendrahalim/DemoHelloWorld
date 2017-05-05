@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 int add(int a, int b);
+int minus(int a, int b);
 
 void main()
 {
@@ -14,4 +15,8 @@ void main()
 
 int add(int a, int b) {
 	return a + b;
+}
+
+int minus(int a, int b) {
+	return a - b;
 }
