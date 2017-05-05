@@ -2,6 +2,7 @@
 
 int add(int a, int b);
 int div(int a, int b);
+int minus(int a, int b);
 
 void main()
 {
@@ -19,4 +20,7 @@ int add(int a, int b) {
 
 int div(int a, int b) {
 	return a / b;
+}
+int minus(int a, int b) {
+	return a - b;
 }
